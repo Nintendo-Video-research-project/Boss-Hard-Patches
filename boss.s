@@ -8,7 +8,6 @@
 ; Generic SpotPass Redirection Engine
 ;;;
 
-snprintf equ 0x124b24 
 strncmp  equ 0x125148 
 strncpy  equ 0x126C08 
 strlen   equ 0x12775c 
