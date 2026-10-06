@@ -2,7 +2,7 @@
 
 all:
 		@mkdir -p build out
-		@"C:\armips-v0.11.0-windows-x86\armips.exe" boss.s
+		@armips boss.s
 		@flips -c code.bin build/patched_code.bin out/code.ips
 
 clean:
